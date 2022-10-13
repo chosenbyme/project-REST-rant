@@ -6,14 +6,14 @@ router.get('/', (req,res) => {
         city: 'Brooklyn',
         state:'NY',
         cuisines:'SICHUAN, Chinese Spicy',
-        pic:'https://chuantianxiany.com/wp-content/uploads/2022/04/slide01.jpg'
+        pic:'/images/slide02.jpg'
     },
     {
         name:'Daxi Sichuan',
         city: 'Flushing',
         state:'NY',
         cuisines:'SICHUAN, Chinese Spicy',
-        pic:'https://s3-media0.fl.yelpcdn.com/bphoto/HrOpVbsmLlSJz0L0HaPg-g/o.jpg'
+        pic:'/images/slide03.jpg'
     }
     ]
     res.render('places/index', {places})
